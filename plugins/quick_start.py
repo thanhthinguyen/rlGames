@@ -4,7 +4,7 @@ from rlGames.plugins.tf_plugin import TensorForcePlugin
 
 
 def main():
-    # Create a Gym environment in FruitAPI
+    # Create a wrapped Gym environment
     env = GymEnvironment(env_name='CartPole-v1')
 
     # Create a PPO learner
