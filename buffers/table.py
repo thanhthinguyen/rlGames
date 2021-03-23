@@ -1,7 +1,6 @@
 import numpy as np
 
 
-# A port from https://github.com/FedUni/MORL/blob/master/morlglue-clients/tools/valuefunction
 class LookupTable(object):
     def __init__(self, environment, init_value=0.):
         self.num_of_objs = environment.get_number_of_objectives()
