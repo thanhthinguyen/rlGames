@@ -2,7 +2,7 @@ This project aims to utilise human expertise to extend the capabilities of deep 
 
 We modified the Tank game, developed in our works published in [1, 2] to demonstrate the superiority of human expertise incorporation into deep RL training. These codes include the implementation of the Tank game and several deep RL methods, including asynchronous advantage actor-critic (A3C) and deep Q-network (DQN).
 
-In the experiments, we compare two scenarios: the first scenario is without human expertise (not using a heuristic rule) and the second scenario is with human expertise (using a heuristic rule via the target mask).
+In the experiments, we compare two scenarios: the first scenario is without human expertise (not using a heuristic rule) and the second scenario is with human expertise (using a heuristic rule via a target mask).
 
 The human knowledge shows that when there are many enemies in the game, the Base gets shot quickly and the game is over and thus the score is low. In that situation, the agent needs to defend the Base to prolong the game. When the number of enemies is small, the agent can turn to an attacking mode to eliminate enemies as quickly as possible. This can help to maximize the game score. The heuristic rule therefore is that if the number of red tanks (enemies) is more than 2, the deep RL agent just needs to focus on protecting the Base by working within the bottom area of the game (defense). When the number of red tanks is 2 or less than that, the agent can move anywhere in the entire game area (attacking). Using this heuristic rule, the agent can switch between defense and attacking strategies automatically during the game depending on the status of the game, i.e., the number of enemies.
 
