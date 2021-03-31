@@ -1085,29 +1085,3 @@ def check_map():
             print("Total Score", game.total_score)
             game.reset()
             break
-
-
-if __name__ == '__main__':
-
-    machine_control(True)
-
-    #get_machine_score_1_player()
-
-    #get_human_score_1_player()
-
-    #get_machine_score_2_players()
-
-    # human_control(True)
-
-    # get_human_score_1_player()
-
-    #check_map()
-
-    #human_control(two_players=True)
-
-    # RESULT
-    # Human 1 player: 118.2 - 142.7
-    # Human 2 players: 175.5
-
-    # Random 2 players: 7.16
-    # Random 1 player: 5.2
