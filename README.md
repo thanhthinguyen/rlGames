@@ -1,6 +1,6 @@
 This project aims to utilise human expertise to extend the capabilities of deep reinforcement learning. 
 
-We modified the Tank game, developed in our works published in [1, 2] to demonstrate the superiority of human expertise incorporation into deep RL training. These codes include the implementation of the Tank game and several deep RL methods including asynchronous advantage actor-critic (A3C), deep Q-network (DQN).
+We modified the Tank game, developed in our works published in [1, 2] to demonstrate the superiority of human expertise incorporation into deep RL training. These codes include the implementation of the Tank game and several deep RL methods, including asynchronous advantage actor-critic (A3C) and deep Q-network (DQN).
 
 In the experiments, we compare two scenarios: the first scenario is without human expertise (not using a heuristic rule) and the second scenario is with human expertise (using a heuristic rule via the target mask).
 
