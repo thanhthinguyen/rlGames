@@ -1,6 +1,6 @@
-from fruit.envs.base import BaseEnvironment
-from fruit.state.processor import AtariProcessor
-from fruit.types.priv import Space
+from rlGames.envs.base import BaseEnvironment
+from rlGames.state.processor import AtariProcessor
+from rlGames.types.priv import Space
 import gym
 import numpy as np
 
