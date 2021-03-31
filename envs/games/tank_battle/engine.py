@@ -17,7 +17,7 @@ from rlGames.utils.image import convert_rgb_to_grayscale_and_resize
 class TankBattle(object):
 
     def __init__(self, render=False, speed=60, max_frames=100000, frame_skip=1,
-                 seed=None, num_of_enemies=5, min_enemines=2, two_players=True, player1_human_control=False,
+                 seed=None, num_of_enemies=5, min_enemines=1, two_players=True, player1_human_control=False,
                  player2_human_control=False, debug=False, using_map=True, multi_target=True, strategy=0,
                  enable_terminal_one_player_die=False, use_2_maps=False, first_player=None, second_player=None):
 
