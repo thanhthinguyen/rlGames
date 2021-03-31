@@ -12,7 +12,7 @@ In this Tank Battle game, there is a Base at the bottom of the game screen that 
 
 ![image](https://user-images.githubusercontent.com/59295532/113088110-b05e7d00-9230-11eb-9ebb-b4f4f13ab47e.png)
 
-In the experiments, we compare two scenarios: the first scenario is without human expertise (not using a heuristic rule) and the second scenario is with human expertise (using a heuristic rule via a target mask). The demo videos below show results of the experiments with one agent.
+In the experiments, we compare two scenarios: the first scenario is without human expertise (not using a heuristic rule) and the second scenario is with human expertise (using a heuristic rule via the target mask). The demo videos below show results of the experiments with one agent.
 
 **The first demo video (https://youtu.be/Buawrq0y13k)** shows when the agent plays the Tank game without human expertise. Without human expertise, the agent plays in an attacking mode to maximize the score and fails to protect the Base. Therefore, the game is over quickly, and the score obtained is relatively small. In this demo, the maximum score obtained is 150.
 
